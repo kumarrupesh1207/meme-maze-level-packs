@@ -4,6 +4,12 @@ This public repository is the data-only delivery source for future Meme Maze
 level packs. It is intentionally separate from the game application and from
 other projects.
 
+## Live content
+
+- Pack 2: Rising Panic — Levels 17–24. It is a data-only JSON pack delivered
+  over HTTPS. The installed game verifies its SHA-256 before making levels
+  available, then keeps it playable offline.
+
 ## What belongs here
 
 - signed level-pack manifests;

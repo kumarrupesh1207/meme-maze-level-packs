@@ -1,0 +1,186 @@
+{
+  "pack_id": "pack-2",
+  "title": "PACK 2: RISING PANIC",
+  "levels": [
+    {
+      "level_id": 17,
+      "world_width": 2700,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1210, "y": 766},
+      "goal": {"position": {"x": 2430, "y": 540}, "next_level_id": 18},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 300, "y": 40}},
+        {"position": {"x": 430, "y": 970}, "size": {"x": 250, "y": 28}},
+        {"position": {"x": 800, "y": 900}, "size": {"x": 230, "y": 28}},
+        {"position": {"x": 1160, "y": 830}, "size": {"x": 260, "y": 30}},
+        {"position": {"x": 1530, "y": 760}, "size": {"x": 250, "y": 30}},
+        {"position": {"x": 1900, "y": 690}, "size": {"x": 260, "y": 32}},
+        {"position": {"x": 2250, "y": 620}, "size": {"x": 300, "y": 40}}
+      ],
+      "traps": [{"type": "hidden_spike", "position": {"x": 2010, "y": 642}, "trigger_data": {"reveal_radius": 190}}]
+    },
+    {
+      "level_id": 18,
+      "world_width": 2880,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1320, "y": 756},
+      "goal": {"position": {"x": 2600, "y": 540}, "next_level_id": 19},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 310, "y": 40}},
+        {"position": {"x": 720, "y": 940}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 1280, "y": 820}, "size": {"x": 280, "y": 30}},
+        {"position": {"x": 1740, "y": 735}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2190, "y": 650}, "size": {"x": 260, "y": 30}},
+        {"position": {"x": 2530, "y": 620}, "size": {"x": 300, "y": 40}}
+      ],
+      "crumbling_floors": [
+        {"position": {"x": 410, "y": 990}, "size": {"x": 180, "y": 26}, "crumble_delay": 0.7},
+        {"position": {"x": 1040, "y": 875}, "size": {"x": 150, "y": 26}, "crumble_delay": 0.6},
+        {"position": {"x": 2020, "y": 690}, "size": {"x": 140, "y": 26}, "crumble_delay": 0.55}
+      ],
+      "traps": []
+    },
+    {
+      "level_id": 19,
+      "world_width": 3000,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1370, "y": 746},
+      "goal": {"position": {"x": 2720, "y": 500}, "next_level_id": 20},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 300, "y": 40}},
+        {"position": {"x": 470, "y": 970}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 880, "y": 895}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 1330, "y": 810}, "size": {"x": 270, "y": 30}},
+        {"position": {"x": 1770, "y": 720}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 2210, "y": 625}, "size": {"x": 250, "y": 30}},
+        {"position": {"x": 2650, "y": 580}, "size": {"x": 300, "y": 40}}
+      ],
+      "traps": [
+        {"type": "moving", "position": {"x": 1120, "y": 800}, "trigger_data": {"path": [{"x": 1120, "y": 800}, {"x": 1240, "y": 800}], "speed": 120}},
+        {"type": "moving", "position": {"x": 2030, "y": 640}, "trigger_data": {"path": [{"x": 2030, "y": 640}, {"x": 2130, "y": 640}], "speed": 135}}
+      ]
+    },
+    {
+      "level_id": 20,
+      "world_width": 3100,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1510, "y": 716},
+      "goal": {"position": {"x": 2800, "y": 455}, "next_level_id": 21},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 320, "y": 40}},
+        {"position": {"x": 760, "y": 900}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 1470, "y": 780}, "size": {"x": 280, "y": 30}},
+        {"position": {"x": 2080, "y": 650}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2730, "y": 535}, "size": {"x": 300, "y": 40}}
+      ],
+      "hidden_floors": [
+        {"position": {"x": 390, "y": 980}, "size": {"x": 180, "y": 24}, "reveal_radius": 170},
+        {"position": {"x": 1080, "y": 840}, "size": {"x": 180, "y": 24}, "reveal_radius": 160},
+        {"position": {"x": 1830, "y": 710}, "size": {"x": 160, "y": 24}, "reveal_radius": 155},
+        {"position": {"x": 2400, "y": 590}, "size": {"x": 160, "y": 24}, "reveal_radius": 150}
+      ],
+      "traps": []
+    },
+    {
+      "level_id": 21,
+      "world_width": 3200,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1590, "y": 706},
+      "goal": {"position": {"x": 2900, "y": 430}, "next_level_id": 22},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 320, "y": 40}},
+        {"position": {"x": 500, "y": 965}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 920, "y": 875}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 1550, "y": 770}, "size": {"x": 300, "y": 30}},
+        {"position": {"x": 2050, "y": 665}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2490, "y": 570}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2830, "y": 510}, "size": {"x": 310, "y": 40}}
+      ],
+      "traps": [
+        {"type": "falling", "position": {"x": 1180, "y": 520}, "trigger_data": {"trigger_width": 120, "fall_gravity": 2200}},
+        {"type": "falling", "position": {"x": 2350, "y": 400}, "trigger_data": {"trigger_width": 120, "fall_gravity": 2300}},
+        {"type": "hidden_spike", "position": {"x": 2640, "y": 522}, "trigger_data": {"reveal_radius": 150}}
+      ]
+    },
+    {
+      "level_id": 22,
+      "world_width": 3300,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1610, "y": 706},
+      "goal": {"position": {"x": 3000, "y": 430}, "next_level_id": 23},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 320, "y": 40}},
+        {"position": {"x": 510, "y": 970}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 940, "y": 885}, "size": {"x": 220, "y": 30}},
+        {"position": {"x": 1570, "y": 770}, "size": {"x": 300, "y": 30}},
+        {"position": {"x": 2100, "y": 660}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 2560, "y": 560}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 2930, "y": 510}, "size": {"x": 310, "y": 40}}
+      ],
+      "crumbling_floors": [
+        {"position": {"x": 780, "y": 930}, "size": {"x": 120, "y": 24}, "crumble_delay": 0.65},
+        {"position": {"x": 1240, "y": 830}, "size": {"x": 160, "y": 24}, "crumble_delay": 0.55},
+        {"position": {"x": 2380, "y": 610}, "size": {"x": 130, "y": 24}, "crumble_delay": 0.5}
+      ],
+      "traps": [
+        {"type": "chaser", "position": {"x": 1880, "y": 720}, "trigger_data": {"path": [{"x": 1880, "y": 720}, {"x": 2010, "y": 720}], "chase_speed": 170, "trigger_width": 220}}
+      ]
+    },
+    {
+      "level_id": 23,
+      "world_width": 3450,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1730, "y": 696},
+      "goal": {"position": {"x": 3150, "y": 395}, "next_level_id": 24},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 320, "y": 40}},
+        {"position": {"x": 510, "y": 970}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 940, "y": 880}, "size": {"x": 220, "y": 30}},
+        {"position": {"x": 1690, "y": 760}, "size": {"x": 310, "y": 30}},
+        {"position": {"x": 2240, "y": 645}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 2700, "y": 545}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 3080, "y": 475}, "size": {"x": 310, "y": 40}}
+      ],
+      "hidden_floors": [
+        {"position": {"x": 1230, "y": 820}, "size": {"x": 200, "y": 24}, "reveal_radius": 170},
+        {"position": {"x": 2040, "y": 700}, "size": {"x": 150, "y": 24}, "reveal_radius": 160},
+        {"position": {"x": 2500, "y": 600}, "size": {"x": 150, "y": 24}, "reveal_radius": 150}
+      ],
+      "traps": [
+        {"type": "moving", "position": {"x": 1460, "y": 740}, "trigger_data": {"path": [{"x": 1460, "y": 740}, {"x": 1580, "y": 740}], "speed": 145}},
+        {"type": "hidden_spike", "position": {"x": 2790, "y": 497}, "trigger_data": {"reveal_radius": 150}}
+      ]
+    },
+    {
+      "level_id": 24,
+      "world_width": 3600,
+      "spawn_point": {"x": 100, "y": 960},
+      "checkpoint": {"x": 1810, "y": 686},
+      "goal": {"position": {"x": 3300, "y": 360}, "next_level_id": 0},
+      "floors": [
+        {"position": {"x": 0, "y": 1046}, "size": {"x": 330, "y": 40}},
+        {"position": {"x": 520, "y": 970}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 980, "y": 880}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 1770, "y": 750}, "size": {"x": 320, "y": 30}},
+        {"position": {"x": 2330, "y": 630}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2810, "y": 510}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 3230, "y": 440}, "size": {"x": 320, "y": 40}}
+      ],
+      "crumbling_floors": [
+        {"position": {"x": 790, "y": 930}, "size": {"x": 150, "y": 24}, "crumble_delay": 0.6},
+        {"position": {"x": 1320, "y": 810}, "size": {"x": 190, "y": 24}, "crumble_delay": 0.5},
+        {"position": {"x": 2580, "y": 575}, "size": {"x": 160, "y": 24}, "crumble_delay": 0.45}
+      ],
+      "hidden_floors": [
+        {"position": {"x": 1530, "y": 790}, "size": {"x": 160, "y": 24}, "reveal_radius": 165},
+        {"position": {"x": 2120, "y": 690}, "size": {"x": 160, "y": 24}, "reveal_radius": 155},
+        {"position": {"x": 3070, "y": 470}, "size": {"x": 120, "y": 24}, "reveal_radius": 145}
+      ],
+      "traps": [
+        {"type": "falling", "position": {"x": 1230, "y": 520}, "trigger_data": {"trigger_width": 115, "fall_gravity": 2300}},
+        {"type": "moving", "position": {"x": 2160, "y": 630}, "trigger_data": {"path": [{"x": 2160, "y": 630}, {"x": 2250, "y": 630}], "speed": 150}},
+        {"type": "hidden_spike", "position": {"x": 2890, "y": 462}, "trigger_data": {"reveal_radius": 150}}
+      ]
+    }
+  ]
+}

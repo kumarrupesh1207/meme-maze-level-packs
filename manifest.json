@@ -1,8 +1,18 @@
 {
   "schemaVersion": 1,
-  "status": "bootstrap",
-  "contentVersion": "0.0.0",
+  "status": "live",
+  "contentVersion": "1.0.0",
   "minimumAppVersion": "1.7.0",
-  "packs": [],
+  "packs": [
+    {
+      "id": "pack-2",
+      "title": "PACK 2: RISING PANIC",
+      "first_level_id": 17,
+      "last_level_id": 24,
+      "byte_size": 9730,
+      "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-2.json",
+      "sha256": "93aeb564f27af9471c082528eeebbb04286c9b5bce4b4cae6c1523940ad974c7"
+    }
+  ],
   "signature": null
 }
