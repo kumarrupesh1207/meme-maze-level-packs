@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "live",
-  "contentVersion": "1.0.0",
-  "minimumAppVersion": "1.7.0",
+  "contentVersion": "2.0.0",
+  "minimumAppVersion": "1.8.0",
   "packs": [
     {
       "id": "pack-2",
@@ -12,6 +12,33 @@
       "byte_size": 9730,
       "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-2.json",
       "sha256": "93aeb564f27af9471c082528eeebbb04286c9b5bce4b4cae6c1523940ad974c7"
+    },
+    {
+      "id": "pack-3",
+      "title": "PACK 3: SHADOW CIRCUIT",
+      "first_level_id": 25,
+      "last_level_id": 32,
+      "byte_size": 7267,
+      "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-3.json",
+      "sha256": "8df23d9f21d9255d73bd5fc710e71372f2dbbde08f5b0a97950cc5ae49704db3"
+    },
+    {
+      "id": "pack-4",
+      "title": "PACK 4: PANIC PARADE",
+      "first_level_id": 33,
+      "last_level_id": 40,
+      "byte_size": 7293,
+      "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-4.json",
+      "sha256": "44b536f7afc81bf4e673a31086dcd5af76a7a67cecebc251356242e3653f7914"
+    },
+    {
+      "id": "pack-5",
+      "title": "PACK 5: MAZE MASTER",
+      "first_level_id": 41,
+      "last_level_id": 50,
+      "byte_size": 9522,
+      "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-5.json",
+      "sha256": "14f9426f36e9a9542cdf56b65c88e4b301080b35ad2be53ae75979452bcc5f9b"
     }
   ],
   "signature": null
