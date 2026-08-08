@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "live",
   "contentVersion": "2.0.0",
-  "minimumAppVersion": "1.8.0",
+  "minimumAppVersion": "1.7.3",
   "packs": [
     {
       "id": "pack-2",
