@@ -100,6 +100,9 @@
         {"type": "falling", "position": {"x": 1180, "y": 520}, "trigger_data": {"trigger_width": 120, "fall_gravity": 2200}},
         {"type": "falling", "position": {"x": 2350, "y": 400}, "trigger_data": {"trigger_width": 120, "fall_gravity": 2300}},
         {"type": "hidden_spike", "position": {"x": 2640, "y": 522}, "trigger_data": {"reveal_radius": 150}}
+      ],
+      "crumbling_floors": [
+        {"position": {"x": 1280, "y": 820}, "size": {"x": 180, "y": 24}, "crumble_delay": 0.65}
       ]
     },
     {
@@ -113,7 +116,7 @@
         {"position": {"x": 510, "y": 970}, "size": {"x": 230, "y": 30}},
         {"position": {"x": 940, "y": 885}, "size": {"x": 220, "y": 30}},
         {"position": {"x": 1570, "y": 770}, "size": {"x": 300, "y": 30}},
-        {"position": {"x": 2100, "y": 660}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 2070, "y": 660}, "size": {"x": 230, "y": 30}},
         {"position": {"x": 2560, "y": 560}, "size": {"x": 230, "y": 30}},
         {"position": {"x": 2930, "y": 510}, "size": {"x": 310, "y": 40}}
       ],
@@ -136,7 +139,7 @@
         {"position": {"x": 0, "y": 1046}, "size": {"x": 320, "y": 40}},
         {"position": {"x": 510, "y": 970}, "size": {"x": 230, "y": 30}},
         {"position": {"x": 940, "y": 880}, "size": {"x": 220, "y": 30}},
-        {"position": {"x": 1690, "y": 760}, "size": {"x": 310, "y": 30}},
+        {"position": {"x": 1600, "y": 760}, "size": {"x": 310, "y": 30}},
         {"position": {"x": 2240, "y": 645}, "size": {"x": 230, "y": 30}},
         {"position": {"x": 2700, "y": 545}, "size": {"x": 230, "y": 30}},
         {"position": {"x": 3080, "y": 475}, "size": {"x": 310, "y": 40}}

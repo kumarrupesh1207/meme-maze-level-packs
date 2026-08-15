@@ -9,27 +9,27 @@
       "title": "PACK 2: RISING PANIC",
       "first_level_id": 17,
       "last_level_id": 24,
-      "byte_size": 9730,
+      "byte_size": 9863,
       "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-2.json",
-      "sha256": "93aeb564f27af9471c082528eeebbb04286c9b5bce4b4cae6c1523940ad974c7"
+      "sha256": "15507ef60bd28cb8a45dcbc5a9cbaaec854cd061e3b74b272dd41f335d2e1387"
     },
     {
       "id": "pack-3",
       "title": "PACK 3: SHADOW CIRCUIT",
       "first_level_id": 25,
       "last_level_id": 32,
-      "byte_size": 11743,
+      "byte_size": 12579,
       "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-3.json",
-      "sha256": "a724d8aa7c64318b50ad68d9fada0c557385f992db544f095b53338c393424d1"
+      "sha256": "5fc5077513cd9d9ae3939c873794677a0072bfcace9cbb7dfad94ba7f1be17ce"
     },
     {
       "id": "pack-4",
       "title": "PACK 4: PANIC PARADE",
       "first_level_id": 33,
       "last_level_id": 40,
-      "byte_size": 8796,
+      "byte_size": 25670,
       "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-4.json",
-      "sha256": "d7449a9e9034de551519a3bd7caf6c9d0453195f94a14f89b261f055592e14cd"
+      "sha256": "d6ab742aa927c57a0479719f609c45e85e17cff2f8fd71d2c23a1e5c67faecda"
     },
     {
       "id": "pack-5",
