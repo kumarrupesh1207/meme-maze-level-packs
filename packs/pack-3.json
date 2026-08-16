@@ -29,20 +29,20 @@
       "world_width": 3550,
       "spawn_point": {"x": 100, "y": 960},
       "checkpoint": {"x": 1730, "y": 621},
-      "goal": {"position": {"x": 3200, "y": 335}, "next_level_id": 27},
+      "goal": {"position": {"x": 3200, "y": 420}, "next_level_id": 27},
       "floors": [
         {"position": {"x": 0, "y": 1046}, "size": {"x": 340, "y": 40}},
         {"position": {"x": 760, "y": 930}, "size": {"x": 240, "y": 30}},
         {"position": {"x": 1320, "y": 805}, "size": {"x": 270, "y": 30}},
         {"position": {"x": 1710, "y": 685}, "size": {"x": 270, "y": 30}},
-        {"position": {"x": 2150, "y": 580}, "size": {"x": 240, "y": 30}},
-        {"position": {"x": 2590, "y": 480}, "size": {"x": 240, "y": 30}},
-        {"position": {"x": 3050, "y": 415}, "size": {"x": 360, "y": 40}}
+        {"position": {"x": 2150, "y": 790}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2590, "y": 640}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 3050, "y": 500}, "size": {"x": 360, "y": 40}}
       ],
       "crumbling_floors": [
         {"position": {"x": 420, "y": 990}, "size": {"x": 190, "y": 26}, "crumble_delay": 0.75},
         {"position": {"x": 1060, "y": 865}, "size": {"x": 170, "y": 26}, "crumble_delay": 0.65},
-        {"position": {"x": 2400, "y": 530}, "size": {"x": 150, "y": 26}, "crumble_delay": 0.60}
+        {"position": {"x": 2400, "y": 730}, "size": {"x": 150, "y": 26}, "crumble_delay": 0.60}
       ],
       "traps": [
         {"type": "moving", "position": {"x": 650, "y": 885}, "trigger_data": {"path": [{"x": 650, "y": 885}, {"x": 720, "y": 885}], "speed": 115}},
@@ -78,21 +78,21 @@
       "world_width": 3850,
       "spawn_point": {"x": 100, "y": 960},
       "checkpoint": {"x": 1900, "y": 581},
-      "goal": {"position": {"x": 3500, "y": 290}, "next_level_id": 29},
+      "goal": {"position": {"x": 3500, "y": 420}, "next_level_id": 29},
       "floors": [
         {"position": {"x": 0, "y": 1046}, "size": {"x": 350, "y": 40}},
         {"position": {"x": 820, "y": 915}, "size": {"x": 240, "y": 30}},
         {"position": {"x": 1500, "y": 785}, "size": {"x": 260, "y": 30}},
         {"position": {"x": 1880, "y": 645}, "size": {"x": 290, "y": 30}},
-        {"position": {"x": 2420, "y": 535}, "size": {"x": 240, "y": 30}},
-        {"position": {"x": 2920, "y": 430}, "size": {"x": 230, "y": 30}},
-        {"position": {"x": 3350, "y": 370}, "size": {"x": 380, "y": 40}}
+        {"position": {"x": 2420, "y": 760}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2920, "y": 610}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 3350, "y": 500}, "size": {"x": 380, "y": 40}}
       ],
       "hidden_floors": [
         {"position": {"x": 420, "y": 985}, "size": {"x": 190, "y": 24}, "reveal_radius": 210},
         {"position": {"x": 1160, "y": 850}, "size": {"x": 190, "y": 24}, "reveal_radius": 190},
         {"position": {"x": 2220, "y": 590}, "size": {"x": 150, "y": 24}, "reveal_radius": 175},
-        {"position": {"x": 2750, "y": 480}, "size": {"x": 150, "y": 24}, "reveal_radius": 165}
+        {"position": {"x": 2750, "y": 700}, "size": {"x": 150, "y": 24}, "reveal_radius": 165}
       ],
       "traps": [
         {"type": "moving", "position": {"x": 1380, "y": 720}, "trigger_data": {"path": [{"x": 1380, "y": 720}, {"x": 1460, "y": 720}], "speed": 120}},
@@ -132,7 +132,7 @@
       "world_width": 4150,
       "spawn_point": {"x": 100, "y": 960},
       "checkpoint": {"x": 2070, "y": 541},
-      "goal": {"position": {"x": 3780, "y": 245}, "next_level_id": 31},
+      "goal": {"position": {"x": 3780, "y": 420}, "next_level_id": 31},
       "floors": [
         {"position": {"x": 0, "y": 1046}, "size": {"x": 360, "y": 40}},
         {"position": {"x": 560, "y": 950}, "size": {"x": 250, "y": 30}},
@@ -141,16 +141,16 @@
         {"position": {"x": 1530, "y": 735}, "size": {"x": 240, "y": 30}},
         {"position": {"x": 1850, "y": 680}, "size": {"x": 160, "y": 24}},
         {"position": {"x": 2050, "y": 605}, "size": {"x": 300, "y": 30}},
-        {"position": {"x": 2550, "y": 495}, "size": {"x": 240, "y": 30}},
-        {"position": {"x": 2870, "y": 440}, "size": {"x": 180, "y": 24}},
-        {"position": {"x": 3110, "y": 390}, "size": {"x": 230, "y": 30}},
-        {"position": {"x": 3420, "y": 350}, "size": {"x": 150, "y": 24}},
-        {"position": {"x": 3620, "y": 325}, "size": {"x": 390, "y": 40}}
+        {"position": {"x": 2550, "y": 730}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 2870, "y": 650}, "size": {"x": 180, "y": 24}},
+        {"position": {"x": 3110, "y": 570}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 3420, "y": 530}, "size": {"x": 150, "y": 24}},
+        {"position": {"x": 3620, "y": 500}, "size": {"x": 390, "y": 40}}
       ],
       "traps": [
         {"type": "chaser", "position": {"x": 1780, "y": 700}, "trigger_data": {"path": [{"x": 1780, "y": 700}, {"x": 1970, "y": 700}], "chase_speed": 175, "trigger_width": 220}},
         {"type": "moving", "position": {"x": 2850, "y": 460}, "trigger_data": {"path": [{"x": 2850, "y": 460}, {"x": 2980, "y": 460}], "speed": 145}},
-        {"type": "hidden_spike", "position": {"x": 3170, "y": 342}, "trigger_data": {"reveal_radius": 205}}
+        {"type": "hidden_spike", "position": {"x": 3170, "y": 542}, "trigger_data": {"reveal_radius": 205}}
       ]
     },
     {
@@ -187,7 +187,7 @@
       "world_width": 4450,
       "spawn_point": {"x": 100, "y": 960},
       "checkpoint": {"x": 2250, "y": 501},
-      "goal": {"position": {"x": 4050, "y": 190}, "next_level_id": 0},
+      "goal": {"position": {"x": 4050, "y": 390}, "next_level_id": 0},
       "floors": [
         {"position": {"x": 0, "y": 1046}, "size": {"x": 370, "y": 40}},
         {"position": {"x": 580, "y": 945}, "size": {"x": 260, "y": 30}},
@@ -195,22 +195,22 @@
         {"position": {"x": 1620, "y": 715}, "size": {"x": 240, "y": 30}},
         {"position": {"x": 1950, "y": 675}, "size": {"x": 180, "y": 24}},
         {"position": {"x": 2230, "y": 565}, "size": {"x": 320, "y": 30}},
-        {"position": {"x": 2820, "y": 455}, "size": {"x": 240, "y": 30}},
-        {"position": {"x": 3140, "y": 400}, "size": {"x": 180, "y": 24}},
-        {"position": {"x": 3390, "y": 345}, "size": {"x": 230, "y": 30}},
-        {"position": {"x": 3700, "y": 310}, "size": {"x": 140, "y": 24}},
-        {"position": {"x": 3890, "y": 270}, "size": {"x": 420, "y": 40}}
+        {"position": {"x": 2820, "y": 700}, "size": {"x": 240, "y": 30}},
+        {"position": {"x": 3140, "y": 640}, "size": {"x": 180, "y": 24}},
+        {"position": {"x": 3390, "y": 570}, "size": {"x": 230, "y": 30}},
+        {"position": {"x": 3700, "y": 520}, "size": {"x": 140, "y": 24}},
+        {"position": {"x": 3890, "y": 470}, "size": {"x": 420, "y": 40}}
       ],
       "crumbling_floors": [
         {"position": {"x": 870, "y": 890}, "size": {"x": 160, "y": 24}, "crumble_delay": 0.70},
         {"position": {"x": 1370, "y": 775}, "size": {"x": 180, "y": 24}, "crumble_delay": 0.60},
-        {"position": {"x": 2600, "y": 505}, "size": {"x": 170, "y": 24}, "crumble_delay": 0.55}
+        {"position": {"x": 2600, "y": 740}, "size": {"x": 170, "y": 24}, "crumble_delay": 0.55}
       ],
       "traps": [
         {"type": "chaser", "position": {"x": 1940, "y": 535}, "trigger_data": {"path": [{"x": 1940, "y": 535}, {"x": 2180, "y": 535}], "chase_speed": 180, "trigger_width": 200}},
         {"type": "falling", "position": {"x": 2930, "y": 175}, "trigger_data": {"trigger_width": 115, "fall_gravity": 2300}},
         {"type": "moving", "position": {"x": 3140, "y": 300}, "trigger_data": {"path": [{"x": 3140, "y": 300}, {"x": 3270, "y": 300}], "speed": 155}},
-        {"type": "hidden_spike", "position": {"x": 3470, "y": 297}, "trigger_data": {"reveal_radius": 205}}
+        {"type": "hidden_spike", "position": {"x": 3470, "y": 542}, "trigger_data": {"reveal_radius": 205}}
       ]
     }
   ]
