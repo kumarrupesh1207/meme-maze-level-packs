@@ -155,7 +155,7 @@
       },
       "checkpoint": {
         "x": 2370,
-        "y": 481
+        "y": 676
       },
       "goal": {
         "position": {
@@ -504,7 +504,7 @@
       },
       "checkpoint": {
         "x": 2550,
-        "y": 441
+        "y": 656
       },
       "goal": {
         "position": {
@@ -841,7 +841,7 @@
       },
       "checkpoint": {
         "x": 2730,
-        "y": 401
+        "y": 636
       },
       "goal": {
         "position": {
@@ -1195,7 +1195,7 @@
       },
       "checkpoint": {
         "x": 2910,
-        "y": 361
+        "y": 556
       },
       "goal": {
         "position": {

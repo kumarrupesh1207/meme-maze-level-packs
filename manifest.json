@@ -29,7 +29,7 @@
       "last_level_id": 40,
       "byte_size": 24480,
       "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-4.json",
-      "sha256": "5dd1a14d4974184bfb3487b436a64cf3cd514153ec7864551ddb607165d7b870"
+      "sha256": "4ddc5ea70fd045c8fc7fc0c899374c7ae9a6e55e79c12c89dd6d2e875ee9eb8d"
     },
     {
       "id": "pack-5",
@@ -38,7 +38,7 @@
       "last_level_id": 50,
       "byte_size": 12102,
       "download_url": "https://kumarrupesh1207.github.io/meme-maze-level-packs/packs/pack-5.json",
-      "sha256": "fefd90a5db5e52315407d4216671df0906cfd23bcad18e40aed670b820bd9100"
+      "sha256": "6139a0201f7a8831a845c9e4ec6c8ad1e4f6c8b3f8e93b6daf4a9253d8147263"
     }
   ],
   "signature": null
