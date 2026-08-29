@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Maze 2 — Privacy Policy</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --border-color: #334155;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #f8fafc;
+                --card-bg: #ffffff;
+                --text-main: #0f172a;
+                --text-muted: #475569;
+                --accent: #0284c7;
+                --border-color: #e2e8f0;
+            }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+        .date {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            display: block;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: var(--accent);
+        }
+        h3 {
+            font-size: 1.1rem;
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-main);
+        }
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-main);
+        }
+        li { margin-bottom: 0.4rem; }
+        .highlight-box {
+            background: rgba(56, 189, 248, 0.08);
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meme Maze 2 — Privacy Policy</h1>
+        <span class="date">Effective Date: August 29, 2026</span>
+
+        <p>This Privacy Policy explains how <strong>Meme Maze 2</strong> ("the application", "we", "our") handles information when you install, play, or interact with the game on Android devices.</p>
+
+        <div class="highlight-box">
+            <p><strong>Privacy Summary:</strong> Meme Maze 2 is an offline-capable arcade trap platformer. We do not collect, transmit, sell, monetize, or share your personal data. The game has no accounts, no ads, and no user tracking.</p>
+        </div>
+
+        <h2>1. Information Stored Locally on Your Device</h2>
+        <p>Meme Maze 2 stores game progression and player preferences <strong>exclusively on your local device</strong> using Android's sandboxed local application storage (<code>SharedPreferences</code>):</p>
+        <ul>
+            <li><strong>Game Progression:</strong> Highest unlocked level, completed level IDs, and pack unlock statuses.</li>
+            <li><strong>Gameplay Counters:</strong> Total death counts and per-level retry attempts.</li>
+            <li><strong>Player Preferences:</strong> Sound effects (SFX), background music (BGM), and haptic feedback toggles.</li>
+            <li><strong>Local Display Name:</strong> An optional player-entered name used solely for in-game UI presentation and player-initiated achievement sharing.</li>
+        </ul>
+        <p><strong>Retention and Deletion:</strong> This data remains strictly on your device. You can erase all locally stored data at any time by selecting <strong>Settings → Reset Progress</strong> in the game, or by clearing app storage / uninstalling the app via your device's Android Settings.</p>
+
+        <h2>2. Offline Gameplay & Network Usage</h2>
+        <h3>A. Offline-Playable Base Game</h3>
+        <p>All 50 base-game levels, artwork, and audio files are bundled directly inside the installed application package. You can play the complete game from Level 1 to Level 50 without an active internet connection.</p>
+
+        <h3>B. Optional Downloadable Level Packs</h3>
+        <p>The application includes an optional feature allowing players to check for and download supplemental, data-only level packs over encrypted HTTPS from the developer's public repository (<code>https://kumarrupesh1207.github.io</code>).</p>
+        <ul>
+            <li><strong>Data-Only Content:</strong> Downloadable packs consist strictly of static JSON level coordinates. The game never downloads or executes remote executable code (no Dart, DEX, APK, or native libraries).</li>
+            <li><strong>Cryptographic Verification:</strong> All remote manifests and packs are verified with Ed25519 digital signatures and SHA-256 integrity hashes before being accepted.</li>
+        </ul>
+
+        <h3>C. Application Data vs. Network Transport Metadata</h3>
+        <p>The game client transmits <strong>zero</strong> application data, personal information, player identifiers, progress statistics, or gameplay telemetry during remote pack checks. Ordinary network transport metadata (such as your IP address) is processed by the web hosting provider (GitHub Pages) at the network layer to transmit the static file, but is never accessed or processed by the Meme Maze 2 application or developer as user telemetry.</p>
+
+        <h2>3. Third-Party Services, Advertising & Analytics</h2>
+        <ul>
+            <li><strong>No Advertising SDKs:</strong> We do not display ads or integrate third-party ad networks.</li>
+            <li><strong>No Analytics or Tracking SDKs:</strong> We do not track user behavior, page views, or user journeys.</li>
+            <li><strong>No Crash Reporting Trackers:</strong> We do not bundle third-party crash telemetry SDKs.</li>
+            <li><strong>No Account Systems:</strong> You do not need to create an account, log in, or provide an email address.</li>
+            <li><strong>No Data Brokers:</strong> We do not sell, rent, or trade user data.</li>
+        </ul>
+
+        <h2>4. Device Features & Permissions</h2>
+        <p>Meme Maze 2 declares only two Android permissions:</p>
+        <ul>
+            <li><code>android.permission.VIBRATE</code>: Enables optional tactile haptic feedback during jumps, landings, and obstacle collisions. Can be toggled off at any time in Settings.</li>
+            <li><code>android.permission.INTERNET</code>: Used exclusively to fetch player-approved, data-only level pack files over HTTPS.</li>
+        </ul>
+
+        <h2>5. Player-Initiated Sharing</h2>
+        <p>When you tap the in-game Share button, Android opens the system share sheet with a short achievement message. You choose whether to share and which third-party application receives it. Meme Maze 2 receives no information regarding your chosen recipient or destination service.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Meme Maze 2 is a family-friendly game. Because the application does not collect, store, or transmit personal data from any user, we do not knowingly collect personal information from children or adults.</p>
+
+        <h2>7. Contact Information</h2>
+        <p>If you have questions or concerns regarding this Privacy Policy, please contact us:</p>
+        <ul>
+            <li><strong>GitHub Issue Tracker:</strong> <a href="https://github.com/kumarrupesh1207/Meme-maze-game-2/issues" target="_blank" rel="noopener">https://github.com/kumarrupesh1207/Meme-maze-game-2/issues</a></li>
+            <li><strong>Project Repository:</strong> <a href="https://github.com/kumarrupesh1207/Meme-maze-game-2" target="_blank" rel="noopener">https://github.com/kumarrupesh1207/Meme-maze-game-2</a></li>
+        </ul>
+
+        <footer>
+            &copy; 2026 Meme Maze 2. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
